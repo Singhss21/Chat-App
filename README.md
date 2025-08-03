@@ -60,13 +60,38 @@ chat-app/
 │   └── .env
 ├── .gitignore
 └── README.md
-
+```
 ---
 
-## 🛠️ Installation
-
-### 1. Clone the repository
-
+# ⚙️ Setup Instructions
+## 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/chat-app.git
 cd chat-app
+```
+## 2. Set up the backend
+```bash
+cd server
+npm install
+```
+## 3. Create a .env file inside the server/ directory and add:
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+## 4. Start backend server
+```bash
+npm start
+```
+## 5. Set up the frontend
+### Open a new terminal and run:
+```bash
+cd client
+npm install
+npm run dev
+```
+
+
+
+
