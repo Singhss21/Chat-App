@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:wdth@75..100&display=swap');
+
+
+@import "tailwindcss";
+
+*{
+   font-family: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
