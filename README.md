@@ -60,3 +60,11 @@ chat-app/
 │   └── .env
 ├── .gitignore
 └── README.md
+
+---
+ ⚙️ Setup Instructions
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/chat-app.git
+cd chat-app
